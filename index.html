@@ -29,6 +29,7 @@
                 'bike-primary': '#E76F51',
                 'bike-primary-bg': 'rgba(231, 111, 81, 0.10)',
                 'card-name-fontcolor': '#23A6F0',
+                'footer-background': '#0B0D17',
               } 
             }
           }
@@ -337,7 +338,7 @@
           <!-- Accordion full part -->
            <div class="flex flex-col lg:flex-row justify-center items-center  gap-5 lg:gap-1 mt-12">
             <!-- image part -->
-              <div class="w-3/4 lg:w-full flex justify-center">
+              <div class="w-3/4 lg:w-full flex flex-col lg:flex-row justify-center">
                 <img src="./images/others/faq.png" alt="">
               </div>
             <!-- accordion part -->
@@ -376,6 +377,31 @@
          </section>
     </main>
     <!-- footer section -->
-    <footer></footer>
+    <footer class="footer bg-footer-background text-neutral-content p-10">
+      <div class="container mx-auto flex flex-col lg:flex-row justify-between space-y-6">
+        <nav class="space-y-4">
+              <div class="flex flex-row gap-9">
+                <h6 class="footer-title">Download Now</h6>
+                <h6 class="footer-title">License</h6>
+              </div>
+         <div class="flex gap-10  flex-col lg:flex-row">
+          <a class="link link-hover">About</a>
+          <a class="link link-hover">Features</a>
+          <a class="link link-hover">Price</a>
+          <a class="link link-hover">Careers</a>
+          <a class="link link-hover">Help</a>
+          <a class="link link-hover">Privacy Policy</a>
+         </div>
+         <p class="pt-12">© 2020 bike. All rights reserved</p>
+        </nav>
+        <nav>
+          <h1 class="footer-title">Get the app</h1>
+          <div class="space-y-4">
+            <img src="./images/others/android.png" alt="">
+            <img src="./images/others/ios.png" alt="">
+          </div>
+        </nav>
+      </div>
+    </footer>
 </body>
 </html>
